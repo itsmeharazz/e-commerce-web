@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@layer base {
+  :root {
+    --color-accent: #f5922a;
+    --color-secondary: #1c205b;
+  }
+}
+
+@layer components {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .icon__wrapper {
+    @apply border border-gray-400 rounded-full w-[50px] h-[50px] grid place-items-center text-[22px];
+  }
+
+  .feature_btn {
+    @apply bg-green-700 text-white px-4 py-1 rounded-full;
+  }
+}
+
+@layer utilities {
+  .text-accent {
+    color: var(--color-accent);
+  }
+
+  .text-accent-dark {
+    color: var(--color-secondary);
+  }
+
+  .bg-accent {
+    background-color: var(--color-accent);
+  }
+
+  .bg-accent-dark {
+    background-color: var(--color-secondary);
+  }
+}
