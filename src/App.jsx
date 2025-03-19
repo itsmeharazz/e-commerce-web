@@ -1,11 +1,11 @@
 import React from 'react'
+import Navbar from './compenent/Navbar';
 
 const App = () => {
   return (
-    <div>
-   
-      
-    </div>
+    <>
+    <Navbar />
+     </>
   )
 }
 

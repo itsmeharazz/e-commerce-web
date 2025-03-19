@@ -17,7 +17,7 @@ import feature_2 from './feature__2.webp';
 import products_1 from './post__1.webp';
 import products_2 from './post__2.webp';
 import products_3 from './post__3.webp';
-import products_4 from './post__4.webp';
+import products_4 from './product__4.webp';
 import products_5 from './product__5.webp';
 
 export const assets = {
