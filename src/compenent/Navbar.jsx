@@ -3,13 +3,16 @@ import { BsSearch } from "react-icons/bs";
 import { AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
 import {assets} from '../assets/data'; 
 import CartCountBadge from "./CartCountBadge";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <div className='sticky top-0 bg-white z-10'>
       <div className='container hidden lg:block'>
         <div className='flex justify-between items-center py-1'>
+          <Link to={'/'}>
             <img src={assets.logo} className='w-[5.5em] h-[5.5em]' alt="" />
+          </Link>
           <div className='relative w-full max-w-[500px]'>
             <input
               type='text'
