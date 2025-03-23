@@ -2,6 +2,7 @@ import React from 'react'
 import { assets, products } from "../assets/data";
 import ProductCard from "./ProductCard";
 const BreakfastProducts = () => {
+   
   return (
     <div className='container pt-16'>
       <div className='lg:flex justify-between items-center'>
@@ -12,7 +13,7 @@ const BreakfastProducts = () => {
           </p>
         </div>
         <div className='space-x-4 mt-8 lg:mt-0'>
-          <button className='feature_btn'>Fruits</button>
+          <button className='feature_btn bg-accent'>Fruits</button>
           <button className='text-gray-600 hover:text-green-700'>
             Vegetables
           </button>
@@ -29,7 +30,7 @@ const BreakfastProducts = () => {
             className='w-full h-full object-cover'
           />
         </div>
-        {products.slice(1,5).map((item) => (
+        {products.slice(1, 5).map((item) => (
           <ProductCard
             key={item.id}
             img={item.image}

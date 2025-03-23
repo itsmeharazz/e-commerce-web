@@ -13,7 +13,7 @@ const FruitsProducts = () => {
           </p>
         </div>
         <div className='space-x-4 mt-8 lg:mt-0'>
-          <button className='feature_btn'>Fruits</button>
+          <button className='feature_btn bg-accent'>Fruits</button>
           <button className='text-gray-600 hover:text-green-700'>
             Vegetables
           </button>
@@ -24,7 +24,11 @@ const FruitsProducts = () => {
       </div>
       <div className='grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 pt-8 gap-5'>
         <div className=''>
-          <img src={assets.feature_1} alt='' className='w-full h-full object-cover' />
+          <img
+            src={assets.feature_1}
+            alt=''
+            className='w-full h-full object-cover'
+          />
         </div>
         {products.slice(0, 4).map((item) => (
           <ProductCard
