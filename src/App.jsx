@@ -1,13 +1,16 @@
-import React from "react";
+import React,{useState} from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./compenent/Navbar";
 import HomePage from "./pages/HomePage";
 import CartPage from "./pages/CartPage";
 import PlaceOrder from "./pages/PlaceOrder";
+import SignInPopUp from "../src/compenent/SigninPopUp";
 const App = () => {
+   const [showLogin, setShowLogin] = useState(false);
   return (
     <>
-      <Navbar />
+      {showLogin ? <SignInPopUp setShowLogin={setShowLogin} /> : <></>}
+      <Navbar setShowLogin={setShowLogin} />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/cart' element={<CartPage />} />
