@@ -30,7 +30,7 @@ const BreakfastProducts = () => {
             className='w-full h-full object-cover'
           />
         </div>
-        {products.slice(1, 5).map((item) => (
+        {products.slice(1, 5).map((item, index) => (
           <ProductCard
             key={item.id}
             img={item.image}

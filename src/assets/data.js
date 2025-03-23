@@ -75,31 +75,31 @@ export const category_list = [
 
 export const products = [
   {
-    id: 1,
+    id: "1",
     image: products_1,
     products_name: "Dried Mange",
     Price: "500",
   },
   {
-    id: 2,
+    id: "2",
     image: products_2,
     products_name: "Chruncy Crisps",
     Price: "300",
   },
   {
-    id: 3,
+    id: "3",
     image: products_3,
     products_name: "Jewel Cranberries",
     Price: "200",
   },
   {
-    id: 4,
+    id: "4",
     image: products_4,
     products_name: "Almond organic",
     Price: "500",
   },
   {
-    id: 5,
+    id: "5",
     image: products_5,
     products_name: "Dried Mange",
     Price: "500",
