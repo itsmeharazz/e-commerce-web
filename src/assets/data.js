@@ -48,12 +48,12 @@ export const category_list = [
     stock: "9 Products",
   },
   {
-    menu_name: "Fresh Fruits",
+    menu_name: "Fruits",
     image: category_4,
     stock: "9 Products",
   },
   {
-    menu_name: "Fresh Fruits",
+    menu_name: "Fresh Fish",
     image: category_5,
     stock: "9 Products",
   },
@@ -68,7 +68,7 @@ export const category_list = [
     stock: "9 Products",
   },
   {
-    menu_name: "Soft Drinks",
+    menu_name: "Hand med Drinks",
     image: category_8,
     stock: "9 Products",
   },
