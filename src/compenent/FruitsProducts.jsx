@@ -30,9 +30,10 @@ const FruitsProducts = () => {
             className='w-full h-full object-cover'
           />
         </div>
-        {products.slice(0, 4).map((item) => (
+        {products.slice(0, 4).map((item,index) => (
           <ProductCard
-            key={item.id}
+          key={index}  
+          id={item.id}
             img={item.image}
             name={item.products_name}
             price={item.Price}

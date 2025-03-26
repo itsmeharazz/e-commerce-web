@@ -32,7 +32,8 @@ const BreakfastProducts = () => {
         </div>
         {products.slice(1, 5).map((item, index) => (
           <ProductCard
-            key={item.id}
+            key={index}
+            id={item.id}
             img={item.image}
             name={item.products_name}
             price={item.Price}
