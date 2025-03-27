@@ -105,3 +105,25 @@ export const products = [
     Price: "500",
   },
 ];
+export const blogData = [
+  {
+    img: products_1,
+    title: "Healthy food healthy life",
+    date: "Aug 27,2025",
+    comment: 8,
+  },
+  {
+    img: products_2,
+    title: "Healthy food healthy life",
+    date: "Aug 27,2025",
+    comment: 8,
+  },
+  {
+    img: products_3,
+    title: "Healthy food healthy life",
+    date: "Aug 27,2025",
+    comment: 8,
+  },
+];
+
+
